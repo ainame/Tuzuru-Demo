@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "baseUrl" : "https://example.com",
+    "blogName" : "My Blog",
+    "copyright" : "My Blog",
+    "description" : "My personal blog",
+    "locale" : "en_GB"
+  },
+  "output" : {
+    "directory" : "blog",
+    "homePageStyle" : "pastYear",
+    "routingStyle" : "subdirectory"
+  },
+  "sourceLayout" : {
+    "assets" : "assets",
+    "contents" : "contents",
+    "imported" : "contents/imported",
+    "templates" : {
+      "layout" : "templates/layout.mustache",
+      "list" : "templates/list.mustache",
+      "post" : "templates/post.mustache"
+    },
+    "unlisted" : "contents/unlisted"
+  }
+}
