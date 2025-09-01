@@ -1,6 +1,6 @@
-> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
-
 # Home Workout Routines: Fitness Without the Gym
+
+> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
 
 Working out at home offers convenience, privacy, and cost savings while delivering excellent results. Whether you're a beginner or experienced fitness enthusiast, effective home workouts can help you achieve your health and fitness goals.
 

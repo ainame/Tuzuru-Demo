@@ -1,6 +1,6 @@
-> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
-
 # Introduction to Machine Learning
+
+> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
 
 Machine learning has revolutionized how we approach problem-solving in the digital age. From recommendation systems to autonomous vehicles, ML algorithms are everywhere around us.
 

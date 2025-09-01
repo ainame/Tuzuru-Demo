@@ -1,6 +1,6 @@
-> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
-
 # Sustainable Cooking: Small Changes, Big Impact
+
+> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
 
 The kitchen is where we can make some of the most meaningful contributions to environmental sustainability. Every meal is an opportunity to reduce our carbon footprint.
 

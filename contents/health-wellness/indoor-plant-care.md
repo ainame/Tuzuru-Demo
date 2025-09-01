@@ -1,6 +1,6 @@
-> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
-
 # Indoor Plant Care: Bringing Nature Inside
+
+> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
 
 Indoor plants not only beautify your living space but also improve air quality, reduce stress, and create a connection with nature. Whether you're a beginner or looking to expand your plant collection, understanding the basics of indoor plant care will help your green friends thrive.
 

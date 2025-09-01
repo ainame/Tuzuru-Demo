@@ -1,6 +1,6 @@
-> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
-
 # Urban Gardening: Growing Green in Small Spaces
+
+> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
 
 Living in the city doesn't mean you can't have a garden. Urban gardening is thriving, and with some creativity, even the smallest spaces can become productive green oases.
 

@@ -1,6 +1,6 @@
-> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
-
 # Minimalist Living: Less Stuff, More Life
+
+> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
 
 Minimalism isn't about living with nothing—it's about living with intention. By focusing on what truly adds value to your life, you can create more space, time, and energy for what matters most.
 

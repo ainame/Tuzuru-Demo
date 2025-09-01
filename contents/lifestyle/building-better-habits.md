@@ -1,6 +1,6 @@
-> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
-
 # Building Better Habits: The Science of Behavior Change
+
+> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
 
 Habits shape our lives more than we realize. From the moment we wake up to when we go to bed, our days are filled with automatic behaviors that either move us toward our goals or away from them. Understanding the science behind habit formation can help you build positive habits and break destructive ones.
 

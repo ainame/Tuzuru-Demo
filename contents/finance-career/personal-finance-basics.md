@@ -1,6 +1,6 @@
-> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
-
 # Personal Finance Basics: Building Your Financial Foundation
+
+> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
 
 Managing personal finances doesn't have to be overwhelming. With some basic principles and consistent habits, anyone can build a solid financial foundation and work toward their goals.
 

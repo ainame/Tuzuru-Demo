@@ -1,6 +1,6 @@
-> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
-
 # Home Coffee Brewing: From Beans to Bliss
+
+> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
 
 Coffee is one of life's simple pleasures, and brewing exceptional coffee at home is more accessible than you might think. With the right knowledge and tools, you can create café-quality drinks in your own kitchen.
 

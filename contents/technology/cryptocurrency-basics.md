@@ -1,6 +1,6 @@
-> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
-
 # Cryptocurrency Basics: Understanding Digital Money
+
+> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
 
 Cryptocurrency has evolved from a niche technology experiment to a major force in global finance. Whether you're curious about Bitcoin, concerned about the environmental impact, or considering your first purchase, understanding the basics is essential.
 

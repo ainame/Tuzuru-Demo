@@ -1,6 +1,6 @@
-> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
-
 # Mindful Technology Use: Finding Balance in a Digital World
+
+> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
 
 Technology has transformed our lives in countless positive ways, but it's also created new challenges around attention, relationships, and mental health. Learning to use technology mindfully is essential for modern well-being.
 

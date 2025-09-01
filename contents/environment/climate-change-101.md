@@ -1,6 +1,6 @@
-> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
-
 # Climate Change 101: Understanding Our Changing Planet
+
+> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
 
 Climate change is one of the most pressing challenges of our time. Understanding the science behind it, its impacts, and what we can do about it is essential for everyone. This guide provides a clear, factual overview of climate change basics.
 

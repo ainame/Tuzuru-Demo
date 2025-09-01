@@ -1,6 +1,6 @@
-> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
-
 # Travel Photography: Capturing Memories That Last
+
+> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
 
 Travel photography is more than just taking pictures—it's about preserving emotions, experiences, and perspectives that transport you back to special moments. Whether you're using a smartphone or professional camera, these tips will help you create compelling travel images.
 

@@ -1,6 +1,6 @@
-> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
-
 # Digital Privacy Guide: Protecting Your Online Life
+
+> **Disclaimer**: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.
 
 In today's connected world, digital privacy has become increasingly important. Every click, search, and interaction online can be tracked, stored, and analyzed. Understanding how to protect your digital privacy isn't paranoia—it's essential digital literacy.
 
