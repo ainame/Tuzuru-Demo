@@ -1,9 +1,9 @@
 {
   "metadata" : {
     "baseUrl" : "https://ainame.tokyo/tuzuru-demo",
-    "blogName" : "My Blog",
-    "copyright" : "My Blog",
-    "description" : "My personal blog",
+    "blogName" : "Tuzuru demo blog",
+    "copyright" : "ainame",
+    "description" : "A demo blog for Tuzuru (https://github.com/ainame/Tuzuru) project",
     "locale" : "en_GB"
   },
   "output" : {
