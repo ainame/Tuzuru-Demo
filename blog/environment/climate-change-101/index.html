@@ -17,10 +17,11 @@
 
     <!-- DNS prefetch for external CDN -->
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 
     <!-- Critical CSS - load synchronously to avoid FOUC -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.min.css">
-    <link rel="stylesheet" href="../../assets/main.css?1756747997.078761">
+    <link rel="stylesheet" href="../../assets/main.css?1756748440.113531">
 
     <!-- Non-critical CSS - load asynchronously -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -511,8 +512,8 @@
                         </div>
                     </article>
                     
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
-                    <script>hljs.highlightAll();</script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js" defer></script>
+                    <script defer>hljs.highlightAll();</script>
                 </div>
                 <aside class="sidebar">
                     <div class="sidebar-section">
