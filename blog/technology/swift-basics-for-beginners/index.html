@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swift Basics for Beginners: Your First Steps into iOS Development | Tuzuru demo blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark.min.css" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.min.css">
+    <link rel="stylesheet" href="../../assets/main.css?1756746376.349535">
+</head>
+<body>
+    <div class="markdown-body">
+        <header>
+            <div class="blogName">
+                <a href="../../">Tuzuru demo blog</a>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="content">
+                    <article>
+                        <header>
+                            <h1>Swift Basics for Beginners: Your First Steps into iOS Development</h1>
+                            <div>
+                                By <strong>tuzuru</strong> / Published on 1 September 2025
+                            </div>
+                        </header>
+                    
+                        <div>
+                            <blockquote>
+<p><strong>Disclaimer</strong>: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.</p>
+</blockquote>
+<p>Swift is Apple’s modern programming language for iOS, macOS, watchOS, and tvOS development. Designed to be safe, fast, and expressive, Swift is an excellent choice for beginners who want to start building apps. Let’s explore the fundamentals with practical examples.</p>
+<h2>Why Learn Swift?</h2>
+<p>Swift offers several advantages:</p>
+<ul>
+<li><p><strong>Safety</strong>: Eliminates common programming errors</p>
+</li>
+<li><p><strong>Performance</strong>: Fast execution with modern optimizations</p>
+</li>
+<li><p><strong>Readability</strong>: Clean, expressive syntax</p>
+</li>
+<li><p><strong>Interoperability</strong>: Works seamlessly with Objective-C</p>
+</li>
+<li><p><strong>Open Source</strong>: Available on multiple platforms</p>
+</li>
+</ul>
+<h2>Setting Up Your Environment</h2>
+<p>To start coding in Swift, you’ll need:</p>
+<ul>
+<li><p><strong>Xcode</strong>: Apple’s integrated development environment (free on Mac App Store)</p>
+</li>
+<li><p><strong>Swift Playgrounds</strong>: Great for learning and experimenting</p>
+</li>
+<li><p>Alternatively, use online Swift playgrounds for quick testing</p>
+</li>
+</ul>
+<h2>Variables and Constants</h2>
+<p>Swift uses <code>var</code> for variables (changeable values) and <code>let</code> for constants (unchangeable values):</p>
+<pre><code class="language-swift">// Constants - values that never change
+let appName = &quot;My First App&quot;
+let maxUsers = 100
+
+// Variables - values that can change
+var currentUsers = 25
+var isLoggedIn = false
+
+// Swift infers types automatically
+let message = &quot;Hello, World!&quot;  // String
+let count = 42                 // Int
+let price = 9.99              // Double
+</code></pre>
+<h2>Data Types</h2>
+<p>Swift has several built-in data types:</p>
+<pre><code class="language-swift">// Numbers
+let age: Int = 25
+let temperature: Double = 98.6
+let score: Float = 87.5
+
+// Text
+let firstName: String = &quot;John&quot;
+let lastName: String = &quot;Doe&quot;
+
+// Boolean
+let isComplete: Bool = true
+let hasAccess: Bool = false
+
+// Collections
+let numbers: [Int] = [1, 2, 3, 4, 5]
+let colors: [String] = [&quot;red&quot;, &quot;green&quot;, &quot;blue&quot;]
+let userInfo: [String: String] = [&quot;name&quot;: &quot;Alice&quot;, &quot;email&quot;: &quot;alice@example.com&quot;]
+</code></pre>
+<h2>Functions</h2>
+<p>Functions are reusable blocks of code that perform specific tasks:</p>
+<pre><code class="language-swift">// Simple function
+func greetUser() {
+    print(&quot;Welcome to our app!&quot;)
+}
+
+// Function with parameters
+func greetUser(name: String) {
+    print(&quot;Hello, \(name)!&quot;)
+}
+
+// Function with return value
+func addNumbers(a: Int, b: Int) -&gt; Int {
+    return a + b
+}
+
+// Function with multiple parameters and return value
+func calculateTip(billAmount: Double, tipPercentage: Double) -&gt; Double {
+    return billAmount * (tipPercentage / 100)
+}
+
+// Using the functions
+greetUser()
+greetUser(name: &quot;Sarah&quot;)
+
+let sum = addNumbers(a: 10, b: 5)
+let tip = calculateTip(billAmount: 50.0, tipPercentage: 18.0)
+</code></pre>
+<h2>Control Flow</h2>
+<h3>Conditional Statements</h3>
+<pre><code class="language-swift">let temperature = 75
+
+// If-else statements
+if temperature &gt; 80 {
+    print(&quot;It&#39;s hot outside!&quot;)
+} else if temperature &gt; 60 {
+    print(&quot;Perfect weather!&quot;)
+} else {
+    print(&quot;It&#39;s cold outside!&quot;)
+}
+
+// Switch statements
+let grade = &quot;B&quot;
+switch grade {
+case &quot;A&quot;:
+    print(&quot;Excellent!&quot;)
+case &quot;B&quot;:
+    print(&quot;Good job!&quot;)
+case &quot;C&quot;:
+    print(&quot;Keep improving!&quot;)
+default:
+    print(&quot;Study harder!&quot;)
+}
+</code></pre>
+<h3>Loops</h3>
+<pre><code class="language-swift">// For loop with range
+for i in 1...5 {
+    print(&quot;Count: \(i)&quot;)
+}
+
+// For loop with array
+let fruits = [&quot;apple&quot;, &quot;banana&quot;, &quot;orange&quot;]
+for fruit in fruits {
+    print(&quot;I like \(fruit)&quot;)
+}
+
+// While loop
+var countdown = 5
+while countdown &gt; 0 {
+    print(&quot;T-minus \(countdown)&quot;)
+    countdown -= 1
+}
+print(&quot;Blast off! 🚀&quot;)
+</code></pre>
+<h2>Working with Arrays</h2>
+<p>Arrays are ordered collections of items:</p>
+<pre><code class="language-swift">// Creating arrays
+var shoppingList: [String] = []
+var numbers = [1, 2, 3, 4, 5]
+
+// Adding items
+shoppingList.append(&quot;Milk&quot;)
+shoppingList.append(&quot;Bread&quot;)
+shoppingList += [&quot;Eggs&quot;, &quot;Butter&quot;]
+
+// Accessing items
+let firstItem = shoppingList[0]
+let lastItem = shoppingList[shoppingList.count - 1]
+
+// Iterating through arrays
+for (index, item) in shoppingList.enumerated() {
+    print(&quot;\(index + 1). \(item)&quot;)
+}
+
+// Array methods
+print(&quot;Items in list: \(shoppingList.count)&quot;)
+let hasMilk = shoppingList.contains(&quot;Milk&quot;)
+shoppingList.remove(at: 0) // Remove first item
+</code></pre>
+<h2>Working with Dictionaries</h2>
+<p>Dictionaries store key-value pairs:</p>
+<pre><code class="language-swift">// Creating a dictionary
+var studentGrades: [String: Int] = [
+    &quot;Alice&quot;: 95,
+    &quot;Bob&quot;: 87,
+    &quot;Charlie&quot;: 92
+]
+
+// Adding and updating values
+studentGrades[&quot;David&quot;] = 88
+studentGrades[&quot;Alice&quot;] = 97  // Update existing value
+
+// Accessing values
+if let aliceGrade = studentGrades[&quot;Alice&quot;] {
+    print(&quot;Alice&#39;s grade: \(aliceGrade)&quot;)
+} else {
+    print(&quot;Alice&#39;s grade not found&quot;)
+}
+
+// Iterating through dictionary
+for (student, grade) in studentGrades {
+    print(&quot;\(student): \(grade)&quot;)
+}
+</code></pre>
+<h2>Optionals: Handling Missing Values</h2>
+<p>Optionals are a powerful Swift feature for handling values that might be missing:</p>
+<pre><code class="language-swift">// Optional declaration
+var optionalName: String? = &quot;John&quot;
+var optionalAge: Int? = nil
+
+// Checking for values
+if optionalName != nil {
+    print(&quot;Name is \(optionalName!)&quot;)
+}
+
+// Optional binding (safer approach)
+if let name = optionalName {
+    print(&quot;Hello, \(name)!&quot;)
+} else {
+    print(&quot;No name provided&quot;)
+}
+
+// Nil coalescing operator
+let displayName = optionalName ?? &quot;Anonymous&quot;
+print(&quot;Welcome, \(displayName)!&quot;)
+
+// Optional chaining
+let uppercaseName = optionalName?.uppercased()
+</code></pre>
+<h2>Classes and Structures</h2>
+<h3>Structures</h3>
+<pre><code class="language-swift">struct Person {
+    var name: String
+    var age: Int
+    
+    // Method inside struct
+    func introduce() {
+        print(&quot;Hi, I&#39;m \(name) and I&#39;m \(age) years old.&quot;)
+    }
+    
+    // Mutating method (can change properties)
+    mutating func haveBirthday() {
+        age += 1
+        print(&quot;Happy birthday! Now I&#39;m \(age).&quot;)
+    }
+}
+
+// Using the struct
+var person = Person(name: &quot;Emma&quot;, age: 25)
+person.introduce()
+person.haveBirthday()
+</code></pre>
+<h3>Classes</h3>
+<pre><code class="language-swift">class BankAccount {
+    var accountNumber: String
+    var balance: Double
+    
+    // Initializer
+    init(accountNumber: String, initialBalance: Double) {
+        self.accountNumber = accountNumber
+        self.balance = initialBalance
+    }
+    
+    // Methods
+    func deposit(amount: Double) {
+        balance += amount
+        print(&quot;Deposited $\(amount). New balance: $\(balance)&quot;)
+    }
+    
+    func withdraw(amount: Double) -&gt; Bool {
+        if amount &lt;= balance {
+            balance -= amount
+            print(&quot;Withdrew $\(amount). New balance: $\(balance)&quot;)
+            return true
+        } else {
+            print(&quot;Insufficient funds!&quot;)
+            return false
+        }
+    }
+    
+    func checkBalance() {
+        print(&quot;Current balance: $\(balance)&quot;)
+    }
+}
+
+// Using the class
+let account = BankAccount(accountNumber: &quot;12345&quot;, initialBalance: 1000.0)
+account.deposit(amount: 250.0)
+account.withdraw(amount: 100.0)
+account.checkBalance()
+</code></pre>
+<h2>Error Handling</h2>
+<p>Swift provides robust error handling mechanisms:</p>
+<pre><code class="language-swift">// Define error types
+enum ValidationError: Error {
+    case tooShort
+    case tooLong
+    case invalidCharacters
+}
+
+// Function that can throw errors
+func validatePassword(_ password: String) throws -&gt; Bool {
+    if password.count &lt; 8 {
+        throw ValidationError.tooShort
+    } else if password.count &gt; 50 {
+        throw ValidationError.tooLong
+    } else if password.contains(&quot; &quot;) {
+        throw ValidationError.invalidCharacters
+    }
+    return true
+}
+
+// Using try-catch
+do {
+    try validatePassword(&quot;mypass&quot;)
+    print(&quot;Password is valid!&quot;)
+} catch ValidationError.tooShort {
+    print(&quot;Password must be at least 8 characters long&quot;)
+} catch ValidationError.tooLong {
+    print(&quot;Password must be less than 50 characters&quot;)
+} catch ValidationError.invalidCharacters {
+    print(&quot;Password cannot contain spaces&quot;)
+} catch {
+    print(&quot;An unexpected error occurred: \(error)&quot;)
+}
+</code></pre>
+<h2>Practical Example: Simple Calculator</h2>
+<p>Let’s put it all together with a simple calculator:</p>
+<pre><code class="language-swift">struct Calculator {
+    
+    func add(_ a: Double, _ b: Double) -&gt; Double {
+        return a + b
+    }
+    
+    func subtract(_ a: Double, _ b: Double) -&gt; Double {
+        return a - b
+    }
+    
+    func multiply(_ a: Double, _ b: Double) -&gt; Double {
+        return a * b
+    }
+    
+    func divide(_ a: Double, _ b: Double) -&gt; Double? {
+        guard b != 0 else {
+            print(&quot;Error: Cannot divide by zero!&quot;)
+            return nil
+        }
+        return a / b
+    }
+    
+    func calculate(operation: String, a: Double, b: Double) -&gt; Double? {
+        switch operation {
+        case &quot;+&quot;:
+            return add(a, b)
+        case &quot;-&quot;:
+            return subtract(a, b)
+        case &quot;*&quot;:
+            return multiply(a, b)
+        case &quot;/&quot;:
+            return divide(a, b)
+        default:
+            print(&quot;Unknown operation: \(operation)&quot;)
+            return nil
+        }
+    }
+}
+
+// Using the calculator
+let calc = Calculator()
+
+if let result = calc.calculate(operation: &quot;+&quot;, a: 10, b: 5) {
+    print(&quot;Result: \(result)&quot;)
+}
+
+if let result = calc.divide(15, 3) {
+    print(&quot;15 ÷ 3 = \(result)&quot;)
+}
+
+// This will show an error message
+let _ = calc.divide(10, 0)
+</code></pre>
+<h2>Best Practices for Beginners</h2>
+<h3>1. Use Meaningful Names</h3>
+<pre><code class="language-swift">// Bad
+let x = 25
+let y = calculateTotal(x)
+
+// Good  
+let userAge = 25
+let totalPrice = calculateTotal(userAge)
+</code></pre>
+<h3>2. Keep Functions Small and Focused</h3>
+<pre><code class="language-swift">// Good: Each function has a single responsibility
+func validateEmail(_ email: String) -&gt; Bool {
+    return email.contains(&quot;@&quot;) &amp;&amp; email.contains(&quot;.&quot;)
+}
+
+func sendWelcomeEmail(to email: String) {
+    if validateEmail(email) {
+        print(&quot;Sending welcome email to \(email)&quot;)
+    } else {
+        print(&quot;Invalid email address&quot;)
+    }
+}
+</code></pre>
+<h3>3. Use Guard Statements for Early Returns</h3>
+<pre><code class="language-swift">func processUser(name: String?, age: Int?) {
+    guard let userName = name, !userName.isEmpty else {
+        print(&quot;Invalid name&quot;)
+        return
+    }
+    
+    guard let userAge = age, userAge &gt; 0 else {
+        print(&quot;Invalid age&quot;)
+        return
+    }
+    
+    print(&quot;Processing user: \(userName), age: \(userAge)&quot;)
+}
+</code></pre>
+<h2>Next Steps</h2>
+<p>Now that you understand Swift basics, consider exploring:</p>
+<ul>
+<li><p><strong>UIKit</strong>: Building user interfaces for iOS apps</p>
+</li>
+<li><p><strong>SwiftUI</strong>: Apple’s modern declarative UI framework</p>
+</li>
+<li><p><strong>Core Data</strong>: Data persistence and management</p>
+</li>
+<li><p><strong>Networking</strong>: Making API calls and handling JSON</p>
+</li>
+<li><p><strong>Testing</strong>: Writing unit tests for your code</p>
+</li>
+</ul>
+<h2>Conclusion</h2>
+<p>Swift is a powerful yet approachable programming language. Its emphasis on safety, performance, and clarity makes it perfect for beginners and experienced developers alike. The examples in this guide provide a solid foundation for your Swift journey.</p>
+<p>Remember: the best way to learn programming is by doing. Try modifying these examples, experiment with different values, and build small projects to reinforce your understanding. Start with simple apps like calculators or to-do lists, then gradually tackle more complex challenges.</p>
+<p>Welcome to the exciting world of Swift development! Your journey to creating amazing iOS apps starts here.</p>
+                    
+                        </div>
+                    </article>
+                    
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+                    <script>hljs.highlightAll();</script>
+                </div>
+                <aside class="sidebar">
+                    <div class="sidebar-section">
+                        <h3>Years</h3>
+                        <ul>
+                                <li><a href="../../2025/">2025</a></li>
+                                <li><a href="../../2024/">2024</a></li>
+                                <li><a href="../../2023/">2023</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-section">
+                        <h3>Categories</h3>
+                        <ul>
+                                <li><a href="../../creative-skills/">creative-skills</a></li>
+                                <li><a href="../../environment/">environment</a></li>
+                                <li><a href="../../finance-career/">finance-career</a></li>
+                                <li><a href="../../health-wellness/">health-wellness</a></li>
+                                <li><a href="../../lifestyle/">lifestyle</a></li>
+                                <li><a href="../../technology/">technology</a></li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 ainame</p>
+            <p>Powered by <a href="https://github.com/ainame/Tuzuru">Tuzuru</a></p>
+        </footer>
+    </div>
+    </body>
+</html>
