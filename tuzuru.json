@@ -8,7 +8,7 @@
   },
   "output" : {
     "directory" : "blog",
-    "homePageStyle" : "pastYear",
+    "homePageStyle" : "all",
     "routingStyle" : "subdirectory"
   },
   "sourceLayout" : {
