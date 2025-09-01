@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A demo blog for Tuzuru (https://github.com/ainame/Tuzuru) project">
+    <meta name="theme-color" content="#ffffff">
     <title>Freelance Success: Building Your Independent Career | Tuzuru demo blog</title>
 
     <!-- Open Graph tags -->
@@ -15,13 +16,16 @@
     <meta property="article:author" content="tuzuru">
     <meta property="article:published_time" content="25 July 2023">
 
-    <!-- DNS prefetch for external CDN -->
+    <!-- Performance optimizations -->
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 
-    <!-- Critical CSS - load synchronously to avoid FOUC -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.min.css">
-    <link rel="stylesheet" href="../../assets/main.css?1756748440.113531">
+    <!-- Critical CSS - load asynchronously to avoid render blocking -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.min.css"></noscript>
+
+    <link rel="preload" href="../../assets/main.css?1756748740.410643" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="../../assets/main.css?1756748740.410643"></noscript>
 
     <!-- Non-critical CSS - load asynchronously -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -30,6 +34,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark.min.css" media="(prefers-color-scheme: dark)">
     </noscript>
+
+    <!-- Remove no-js class when JavaScript is available -->
+    <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
 </head>
 <body>
     <div class="markdown-body">
@@ -609,7 +616,13 @@
                     </article>
                     
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js" defer></script>
-                    <script defer>hljs.highlightAll();</script>
+                    <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        if (typeof hljs !== 'undefined') {
+                            hljs.highlightAll();
+                        }
+                    });
+                    </script>
                 </div>
                 <aside class="sidebar">
                     <div class="sidebar-section">
