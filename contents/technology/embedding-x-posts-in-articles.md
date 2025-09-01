@@ -13,9 +13,9 @@ Tuzuru automatically detects X post URLs in your markdown content and transforms
 Just paste the URL on its own line:
 
 ```markdown
-Here's an interesting discussion about web development:
+Here's the latest update from the Swift team:
 
-https://x.com/username/status/1234567890123456789
+https://x.com/SwiftLang/status/1952858529423081666
 
 The community response has been amazing!
 ```
@@ -29,21 +29,21 @@ Tuzuru will automatically convert this URL into a fully interactive X embed with
 
 ## Real-World Examples
 
-### Tech Industry Insights
+### Swift Language Updates
 
-The latest developments in AI are moving fast. Here's what industry leaders are saying:
+The Swift team regularly shares important updates about the language development:
 
-https://x.com/sundarpichai/status/1700000000000000000
+https://x.com/SwiftLang/status/1952858529423081666
 
-This shows how quickly the landscape is evolving and the importance of staying updated.
+This shows how the Swift community stays connected with the latest developments and improvements.
 
-### Community Discussions
+### Developer Community Engagement
 
-Open source communities often share valuable insights through X threads:
+The Swift team actively engages with the developer community, sharing insights and updates:
 
-https://x.com/dan_abramov/status/1650000000000000000
+https://x.com/SwiftLang/status/1930327416813302182
 
-These real-time discussions provide context that static documentation can't capture.
+These real-time discussions provide valuable context for developers working with Swift and help build a stronger community around the language.
 
 ## Benefits of Tuzuru's Auto-Embedding
 
