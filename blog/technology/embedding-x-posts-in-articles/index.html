@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedding X Posts in Tuzuru: Simple URL Magic | Tuzuru demo blog</title>
+    <title>Embedding X Posts in Tuzuru | Tuzuru demo blog</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark.min.css" media="(prefers-color-scheme: dark)">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.min.css">
-    <link rel="stylesheet" href="../../assets/main.css?1756746889.8903189">
+    <link rel="stylesheet" href="../../assets/main.css?1756747181.595272">
 </head>
 <body>
     <div class="markdown-body">
@@ -22,7 +22,7 @@
                 <div class="content">
                     <article>
                         <header>
-                            <h1>Embedding X Posts in Tuzuru: Simple URL Magic</h1>
+                            <h1>Embedding X Posts in Tuzuru</h1>
                             <div>
                                 By <strong>tuzuru</strong> / Published on 31 August 2025
                             </div>
@@ -32,170 +32,35 @@
                             <blockquote>
 <p><strong>Disclaimer</strong>: This article is AI-generated content created for demonstration purposes of the Tuzuru static blog generator.</p>
 </blockquote>
-<p>One of Tuzuru’s most convenient features is its automatic X (Twitter) post embedding. You don’t need complex embed codes or plugins—just paste the X post URL directly into your markdown, and Tuzuru automatically converts it to a beautiful, interactive embed.</p>
-<h2>How It Works</h2>
-<p>Tuzuru automatically detects X post URLs in your markdown content and transforms them into rich embeds during the site generation process. No manual HTML required!</p>
-<h3>Simple Example</h3>
-<p>Just paste the URL on its own line:</p>
-<pre><code class="language-markdown">Here&#39;s the latest update from the Swift team:
-
-https://x.com/SwiftLang/status/1952858529423081666
-
-The community response has been amazing!
+<p>Paste X post URLs directly into your markdown. Tuzuru automatically converts them to embeds.</p>
+<h2>Basic Usage</h2>
+<pre><code class="language-markdown">https://x.com/SwiftLang/status/1952858529423081666
 </code></pre>
-<p>Tuzuru will automatically convert this URL into a fully interactive X embed with:</p>
-<ul>
-<li><p>Original tweet content and media</p>
-</li>
-<li><p>Author information and avatar</p>
-</li>
-<li><p>Engagement metrics (likes, retweets, replies)</p>
-</li>
-<li><p>Reply threads (when enabled)</p>
-</li>
-<li><p>Responsive design that works on all devices</p>
-</li>
-</ul>
-<h2>Real-World Examples</h2>
-<h3>Swift Language Updates</h3>
-<p>The Swift team regularly shares important updates about the language development:</p>
+<h2>Supported Formats</h2>
+<pre><code class="language-markdown">https://twitter.com/username/status/123456789
+https://x.com/username/status/123456789  
+https://mobile.twitter.com/username/status/123456789
+</code></pre>
+<h2>Examples</h2>
 <p><blockquote class="twitter-tweet" data-dnt="true">
     <p>Loading tweet...</p>
     <a href="https://twitter.com/SwiftLang/status/1952858529423081666">Tweet by @SwiftLang</a>
 </blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-<p>This shows how the Swift community stays connected with the latest developments and improvements.</p>
-<h3>Developer Community Engagement</h3>
-<p>The Swift team actively engages with the developer community, sharing insights and updates:</p>
 <p><blockquote class="twitter-tweet" data-dnt="true">
     <p>Loading tweet...</p>
     <a href="https://twitter.com/SwiftLang/status/1930327416813302182">Tweet by @SwiftLang</a>
 </blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-<p>These real-time discussions provide valuable context for developers working with Swift and help build a stronger community around the language.</p>
-<h2>Benefits of Tuzuru’s Auto-Embedding</h2>
-<h3>1. Zero Configuration</h3>
+<h2>Requirements</h2>
 <ul>
-<li><p>No plugins to install</p>
+<li><p>URL must be on its own line</p>
 </li>
-<li><p>No API keys to configure</p>
+<li><p>Post must be public</p>
 </li>
-<li><p>No complex shortcodes to remember</p>
+<li><p>Valid status ID required</p>
 </li>
 </ul>
-<h3>2. Automatic Updates</h3>
-<ul>
-<li><p>Embeds stay current with X’s latest features</p>
-</li>
-<li><p>Responsive design updates automatically</p>
-</li>
-<li><p>Security patches applied seamlessly</p>
-</li>
-</ul>
-<h3>3. Performance Optimized</h3>
-<ul>
-<li><p>Lazy loading by default</p>
-</li>
-<li><p>Minimal JavaScript footprint</p>
-</li>
-<li><p>Fast page load times</p>
-</li>
-</ul>
-<h3>4. SEO Friendly</h3>
-<ul>
-<li><p>Proper meta tags generated</p>
-</li>
-<li><p>Content remains crawlable</p>
-</li>
-<li><p>Social sharing optimized</p>
-</li>
-</ul>
-<h2>Best Practices</h2>
-<h3>Provide Context</h3>
-<p>Always explain why you’re including the X post:</p>
-<pre><code class="language-markdown">The React team recently announced some exciting changes to the framework. 
-Here&#39;s the official announcement:
-
-https://x.com/reactjs/status/1234567890123456789
-
-This update will significantly impact how we handle state management in future projects.
-</code></pre>
-<h3>Use for Timely Content</h3>
-<p>X embeds work best for:</p>
-<ul>
-<li><p>Breaking news and announcements</p>
-</li>
-<li><p>Real-time event coverage</p>
-</li>
-<li><p>Community reactions and discussions</p>
-</li>
-<li><p>Behind-the-scenes insights</p>
-</li>
-<li><p>Live Q&A sessions</p>
-</li>
-</ul>
-<h3>Maintain Accessibility</h3>
-<p>While Tuzuru handles most accessibility concerns automatically, consider:</p>
-<ul>
-<li><p>Adding alt text descriptions for users with screen readers</p>
-</li>
-<li><p>Providing summary context for embedded threads</p>
-</li>
-<li><p>Including fallback text for users who can’t load embeds</p>
-</li>
-</ul>
-<h2>Technical Details</h2>
-<h3>Supported URLs</h3>
-<p>Tuzuru recognizes these X URL formats:</p>
-<ul>
-<li><p><code>https://twitter.com/username/status/123</code></p>
-</li>
-<li><p><code>https://x.com/username/status/123</code></p>
-</li>
-<li><p><code>https://mobile.twitter.com/username/status/123</code></p>
-</li>
-</ul>
-<h3>Privacy Considerations</h3>
-<p>Tuzuru embeds respect user privacy by:</p>
-<ul>
-<li><p>Loading embeds only when visible (lazy loading)</p>
-</li>
-<li><p>Providing GDPR-compliant consent options (when configured)</p>
-</li>
-<li><p>Supporting privacy-first browsing modes</p>
-</li>
-</ul>
-<h3>Performance Metrics</h3>
-<ul>
-<li><p><strong>Load time</strong>: ~200ms additional per embed</p>
-</li>
-<li><p><strong>Bundle size</strong>: +15KB for X widgets (cached)</p>
-</li>
-<li><p><strong>Core Web Vitals</strong>: Optimized for minimal CLS impact</p>
-</li>
-</ul>
-<h2>Troubleshooting</h2>
-<h3>URL Not Embedding?</h3>
-<ul>
-<li><p>Ensure the post is public (private/protected posts won’t embed)</p>
-</li>
-<li><p>Check that the URL is on its own line in markdown</p>
-</li>
-<li><p>Verify the status ID is correct</p>
-</li>
-</ul>
-<h3>Slow Loading?</h3>
-<ul>
-<li><p>Tuzuru lazy-loads embeds by default</p>
-</li>
-<li><p>Check your internet connection</p>
-</li>
-<li><p>Consider reducing the number of embeds per page</p>
-</li>
-</ul>
-<h2>Conclusion</h2>
-<p>Tuzuru’s automatic X embedding makes it incredibly easy to enrich your blog posts with real-time social content. Simply paste the URL, and let Tuzuru handle the rest. This seamless integration helps you create more engaging, contextual content without the technical overhead.</p>
-<p>Try it yourself: find an interesting X post, paste the URL into your next Tuzuru blog post, and watch the magic happen!</p>
                     
                         </div>
                     </article>
