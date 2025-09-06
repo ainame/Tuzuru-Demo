@@ -3,12 +3,6 @@ name: Deploy
 on:
   push:
     branches: [main]
-    paths:
-      - 'blog/**'
-  pull_request:
-    branches: [main]
-    paths:
-      - 'blog/**'
   workflow_dispatch:
 
 permissions:
@@ -21,28 +15,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v5
-
-      # For now, I generate blog locally
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: blog
-
   deploy:
-    if: github.ref == 'refs/heads/main'
-    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    permissions:
-      pages: write
-      id-token: write
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: ainame/tuzuru/.github/actions/tuzuru-deploy@0.1.2
